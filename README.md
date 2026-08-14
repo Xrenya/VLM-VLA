@@ -4,6 +4,6 @@
    -  VLM training stage for different models
    -  Sample Packing (Multipack)
    -  4D mask for attention and RoPE embeddings correct calculation
-   -  Inference of the finetuned model (mentioned importance of usage KV-cache)
+   -  Inference of the finetuned model (mentioned importance of usage KV-cache, can be found in this [tutorial](https://github.com/Xrenya/pytorch-seq2seq/blob/main/7_KVCaching.ipynb))
 2. Introduction VLA with Linear projection heads notebook
 3. Introduction VLA with diffusion head notebook
