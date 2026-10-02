@@ -1,5 +1,5 @@
 # VLM/VLA Tutorial
-
+0. 
 1. [Introduction VLM notebook](https://github.com/Xrenya/VLM-VLA/VLM_1.ipynb): short introduction into how VLM training is done with the simple examples:
    -  VLM training stage for different models (about attention and MMDiT arch see [repo](https://github.com/Xrenya/stable_diffusion)
    -  Sample Packing (Multipack)
