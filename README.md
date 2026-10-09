@@ -1,6 +1,8 @@
 # VLM/VLA Tutorial
-0. 
-1. [Introduction VLM notebook](https://github.com/Xrenya/VLM-VLA/VLM_1.ipynb): short introduction into how VLM training is done with the simple examples:
+1. OWLv2 (Open-World Localization v2) - is open-vocabulary detector. CLIP matches each image patch to the text queries, and the detection heads output a box without text generation
+2. PaliGemma 2 is a generative vision-language model: SigLIP plus Gemma 2. Caption, question answering, OCR, detection and segmentation are the same text decoder, the task depends on the prompt. A box is 4 location tokens, a mask is 16 codes that a separate VQ-VAE transform into pixel from quantized representation.
+3. Molmo2 is also a generative vision-language model (vision model + Qwen3). The same decoder is used for captions, answers and points.
+4. [Introduction VLM notebook](https://github.com/Xrenya/VLM-VLA/VLM_1.ipynb): short introduction into how VLM training is done with the simple examples:
    -  VLM training stage for different models (about attention and MMDiT arch see [repo](https://github.com/Xrenya/stable_diffusion)
    -  Sample Packing (Multipack)
    -  4D mask for attention and RoPE embeddings correct calculation
