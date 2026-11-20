@@ -1,5 +1,5 @@
 # VLM/VLA Tutorial
-1. OWLv2 (Open-World Localization v2) - is open-vocabulary detector. CLIP matches each image patch to the text queries, and the detection heads output a box without text generation.  
+1. [OWLv2 (Open-World Localization v2)](https://github.com/Xrenya/VLM-VLA/blob/main/OWLv2/inference.ipynb) - is open-vocabulary detector. CLIP matches each image patch to the text queries, and the detection heads output a box without text generation.  
 **Example**:  
 <div align="center">
    <img src="assets/cat_remote_boxes.png" alt="cat and remote boxes" width="300"/>  
